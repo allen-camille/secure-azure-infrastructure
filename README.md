@@ -67,3 +67,13 @@ Projektet visar hur man bygger en säker och segmenterad molnmiljö i Azure med 
 ## 📁 Dokumentation
 
 - Projektfiler, PDF:er och skärmdumpar lagras i projektets GitHub-repo.
+
+## 📊 Arkitekturdiagram
+
+Här ser du en visuell översikt av infrastrukturen:
+
+![Arkitekturdiagram](architecture-diagrams/secure-azure-infrastructure.png)
+
+<p align="center"><em>Diagram 1: Översikt av den säkra Azure-infrastrukturen</em></p>
+
+
