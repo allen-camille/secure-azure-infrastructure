@@ -1,7 +1,7 @@
 # Secure Cloud Solution – Medilync AB
 
 
-## 📚 Innehållsförteckning
+##  Innehållsförteckning 📚
 
 - [Infrastrukturöversikt](#infrastrukturöversikt)
 - [Säkerhet](#säkerhet)
@@ -14,7 +14,7 @@
 
 Detta projekt simulerar en säker molninfrastruktur i Microsoft Azure för ett vårdbolag, Medilync AB. Lösningen omfattar flera säkerhets- och nätverksfunktioner inklusive:
 
-## 🔐 Infrastrukturöversikt
+##  Infrastrukturöversikt 🔐
 
 - **Virtuella nätverk (VNet)**
   - medilync-vnetAL med tre undernät:
@@ -34,7 +34,7 @@ Detta projekt simulerar en säker molninfrastruktur i Microsoft Azure för ett v
   - Användning av SSH-nyckelautentisering
   - Azure Bastion för säker intern åtkomst
 
-## 👤 Identitet och åtkomst (IAM)
+##  Identitet och åtkomst (IAM) 👤
 
 - Roller tilldelades i två olika resursgrupper:
   - `Medilync-ProdRG`: Läsare
@@ -50,25 +50,25 @@ Detta projekt simulerar en säker molninfrastruktur i Microsoft Azure för ett v
   - Hanteras externt via frontend/B2C eller API-autentisering
   - Ingen användare skapades i Entra ID, men rollen finns definierad i designen
 
-## 🔒 Säkerhet
+## Säkerhet 🔒 
 
 - Azure Defender for Cloud aktiverades (och senare inaktiverades för kostnadskontroll)
 - Säkerhetskopiering testades för `web01` (Backup via Recovery Services vault)
 - VM Insights aktiverades tillfälligt för övervakning
 - Monitor och Log Analytics anslutna till `web01`
 
-## 💾 Backup och återställning
+##  Backup och återställning 💾
 
 - Backup aktiverades och verifierades via återställningspunkter
 - Säkerhetskopieringen togs därefter bort för att minska kostnader
 
-## 🔑 Diskkryptering
+##  Diskkryptering 🔑
 
 - CMK (Customer Managed Key) användes för att kryptera `web01_OsDisk`
 - Nyckelhantering skedde via Key Vault: `medilync-cmkvault`
 - Nyckel: `web01-des`
 
-## 🧠 Lärdomar
+## Lärdomar 🧠 
 
 Projektet visar hur man bygger en säker och segmenterad molnmiljö i Azure med fokus på:
 - IAM
@@ -76,11 +76,11 @@ Projektet visar hur man bygger en säker och segmenterad molnmiljö i Azure med 
 - Kryptering
 - Backup och övervakning
 
-## 📁 Dokumentation
+##  Dokumentation 📁
 
 - Projektfiler, PDF:er och skärmdumpar lagras i projektets GitHub-repo.
 
-## 📊 Arkitekturdiagram
+##  Arkitekturdiagram 📊
 
 Här ser du en visuell översikt av infrastrukturen:
 
