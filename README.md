@@ -1,15 +1,15 @@
 # Secure Cloud Solution – Medilync AB
 
+## 📚 Innehållsförteckning
+- [Infrastrukturöversikt 🔐](#infrastrukturöversikt-)
+- [Identitet och åtkomst (IAM) 👤](#identitet-och-åtkomst-iam-)
+- [Säkerhet 🔒](#säkerhet-)
+- [Backup och återställning 💾](#backup-och-återställning-)
+- [Diskkryptering 🔑](#diskkryptering-)
+- [Lärdomar 🧠](#lärdomar-)
+- [Dokumentation 📁](#dokumentation-)
+- [Arkitekturdiagram 📊](#arkitekturdiagram-)
 
-##  Innehållsförteckning 📚
-
-- [Infrastrukturöversikt](#infrastrukturöversikt)
-- [Säkerhet](#säkerhet)
-- [Backup och återställning](#backup-och-återställning)
-- [Diskkryptering](#diskkryptering)
-- [Lärdomar](#lärdomar)
-- [Dokumentation](#dokumentation)
-- [Arkitekturdiagram](#arkitekturdiagram)
 
 
 Detta projekt simulerar en säker molninfrastruktur i Microsoft Azure för ett vårdbolag, Medilync AB. Lösningen omfattar flera säkerhets- och nätverksfunktioner inklusive:
